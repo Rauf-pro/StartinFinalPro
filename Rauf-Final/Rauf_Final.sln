@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rauf-Final", "Rauf-Final\Rauf-Final.csproj", "{3195EF9D-DC02-409F-B3B0-1AB8F4E3651E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3195EF9D-DC02-409F-B3B0-1AB8F4E3651E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3195EF9D-DC02-409F-B3B0-1AB8F4E3651E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3195EF9D-DC02-409F-B3B0-1AB8F4E3651E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3195EF9D-DC02-409F-B3B0-1AB8F4E3651E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {462D36A8-31A3-4D97-A67A-413C808D8E03}
+	EndGlobalSection
+EndGlobal
