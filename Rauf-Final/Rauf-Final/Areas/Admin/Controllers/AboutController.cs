@@ -4,10 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Rauf_Final.Controllers
+namespace Rauf_Final.Areas.Admin.Controllers
 {
-    public class BlogDetailController : Controller
+    public class AboutUsController : Controller
     {
+
         public IActionResult Index()
         {
             return View();

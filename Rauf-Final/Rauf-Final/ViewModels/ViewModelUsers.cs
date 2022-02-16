@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Rauf_Final.ViewModels
 {
-    public class ViewModelUser
+    public class ViewModelUsers
     {
         public List<CustomUser> CustomUsers { get; set; }
         public List<IdentityRole> Roles { get; set; }

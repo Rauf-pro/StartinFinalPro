@@ -106,7 +106,7 @@ namespace Rauf_Final.Areas.Admin.Controllers
 
             public IActionResult Users()
             {
-                ViewModelUser model = new ViewModelUser();
+                ViewModelUsers model = new ViewModelUsers();
                 model.CustomUsers = _context.CustomUsers.ToList();
                 model.Roles = _context.Roles.ToList();
                 model.UserRoles = _context.UserRoles.ToList();

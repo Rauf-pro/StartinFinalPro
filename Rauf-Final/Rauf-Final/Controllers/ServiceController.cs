@@ -12,5 +12,9 @@ namespace Rauf_Final.Controllers
         {
             return View();
         }
+        public IActionResult ServiceDetail()
+        {
+            return View();
+        }
     }
 }
