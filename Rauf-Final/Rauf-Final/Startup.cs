@@ -36,11 +36,8 @@ namespace Rauf_Final
             services.AddDbContext<AppDbContext>(option => option.UseSqlServer(Configuration.GetConnectionString("Consulting")));
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>();
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
-            services.Configure<CookieAuthenticationOptions>(options =>
-            {
-                options.AccessDeniedPath = new PathString("/Admin/Account/Login");
-            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

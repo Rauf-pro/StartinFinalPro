@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Rauf_Final.ViewModels
 {
-    public class VmAbout:VmLayout
+    public class VmAboutUs:VmLayout
     {
         public AboutUs AboutUs { get; set; }
 

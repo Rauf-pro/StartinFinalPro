@@ -16,6 +16,7 @@ namespace Rauf_Final.Models
         public string Name { get; set; }
         [MaxLength(200)]
         public string ShortContent { get; set; }
+        public List<Service> Services { get; set; }
 
 
     }

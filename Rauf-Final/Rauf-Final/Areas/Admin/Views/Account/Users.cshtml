@@ -81,7 +81,7 @@
 
                                                     if (userRole != null)
                                                     {
-                                                        role = Model.Roles.FirstOrDefault(r => r.Id == userRole.RoleId).Name;
+                                                        role = Model.IdentityRoles.FirstOrDefault(r => r.Id == userRole.RoleId).Name;
 
                                                     }
                                                 }

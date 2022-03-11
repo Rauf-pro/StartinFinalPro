@@ -12,5 +12,6 @@ namespace Rauf_Final.Models
         public int Id { get; set; }
         [MaxLength(50)]
         public string Name { get; set; }
+        public List<TagToBlog> TagToBlogs { get; set; }
     }
 }

@@ -13,6 +13,7 @@ namespace Rauf_Final.Models
         [MaxLength(150)]
         public string Name { get; set; }
         public DateTime CreatedDate { get; set; }
+        public List<Project> Projects { get; set; }
 
     }
 }

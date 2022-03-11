@@ -17,9 +17,10 @@ namespace Rauf_Final.Controllers
         }
         public IActionResult Index()
         {
-            VmAbout model = new VmAbout();
+            VmAboutUs model = new VmAboutUs();
             model.AboutUs = _context.AboutUs.FirstOrDefault();
             model.Setting = _context.Settings.FirstOrDefault();
+            model.Socials = _context.Socials.ToList();
             
 
             return View(model);

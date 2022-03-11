@@ -10,7 +10,7 @@ namespace Rauf_Final.ViewModels
     public class ViewModelUsers
     {
         public List<CustomUser> CustomUsers { get; set; }
-        public List<IdentityRole> Roles { get; set; }
+        public List<IdentityRole> IdentityRoles { get; set; }
         public List<IdentityUserRole<string>> UserRoles { get; set; }
     }
 }

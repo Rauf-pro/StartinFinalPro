@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Rauf_Final.Areas.Admin.Controllers
 {
-    public class AboutUsController : Controller
+    public class FAQController : Controller
     {
-
         public IActionResult Index()
         {
             return View();
